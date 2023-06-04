@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>News App</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav>
+		<div class="main-nav container flex">
+			<div href="#" class="company-logo">
+				<img
+					src="https://github.com/Anuj-Kumar-Sharma/Web-Development-Course/blob/master/learnjs/15.%20News%20App/assets/logo.png?raw=true"
+					alt="company logo">
+			</div>
+			<div class="nav-links">
+				<ul class="flex">
+					<li class="hover-link nav-item" id="ipl">IPL</li>
+					<li class="hover-link nav-item" id="finance">Finance</li>
+					<li class="hover-link nav-item" id="politics">Politics</li>
+				</ul>
+			</div>
+			<div class="search-bar flex">
+				<input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+				<button id="search-button" class="search-button">Search</button>
+			</div>
+		</div>
+	</nav>
+
+    <div class="content__container">
+
+        <div class="loading">
+            <?xml version="1.0" encoding="utf-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(255, 255, 255); display: block; shape-rendering: auto;" width="200px" height="200px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+        <circle cx="50" cy="50" r="0" fill="none" stroke="#e90c59" stroke-width="2">
+            <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="0s"></animate>
+        <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="0s"></animate>
+        </circle><circle cx="50" cy="50" r="0" fill="none" stroke="#46dff0" stroke-width="2">
+            <animate attributeName="r" repeatCount="indefinite" dur="1s" values="0;40" keyTimes="0;1" keySplines="0 0.2 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+            <animate attributeName="opacity" repeatCount="indefinite" dur="1s" values="1;0" keyTimes="0;1" keySplines="0.2 0 0.8 1" calcMode="spline" begin="-0.5s"></animate>
+        </circle></svg>
+    </div>
+	<main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+	</main>
+</div>
+	<script src="index.js"></script>
+</body>
+
+</html> 
